@@ -335,7 +335,7 @@ to {
         grid-template-columns: repeat(1,1fr);
         width: 60%;
         text-align: center;
-        gap: 2rem;  
+        gap: 3rem;  
     }
 }
 .heading {
