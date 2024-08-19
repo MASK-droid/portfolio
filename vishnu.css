@@ -346,9 +346,12 @@ to {
     grid-template-columns: repeat(3,1fr);
     align-items: center;
     gap: 1.2rem;
+    
 }
+
 .service-box{
-    background-color: var(--main-color);
+    background-color: transparent;
+    border: 2px solid var(--main-color);
     height: 300px;
     border-radius: 3rem;
     cursor: pointer;
