@@ -6,7 +6,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="vishnu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="header">
@@ -23,12 +23,13 @@
     </header>
 
     <section class="home" id="home">
-        <div class="home-img">
+        <div data-aos="fade-down"
+        data-aos-duration="1000" class="home-img">
             <img src="logo.jpg" alt="">
         </div>
-        <div class="home-content">
-            <h1>Hi, It's <span>Vishnu</span></h1>
-            <h3 class="typing-text">I'm a <span></span></h3>
+        <div class="home-content" data-aos="zoom-out-up">
+            <h1 >Hi, It's <span>Vishnu</span></h1>
+            <h3 class="typing-text" >I'm a <span></span></h3>
             <p>Welcome to my Python developer portfolio website. Here, you’ ll find a collection of projects that showcase my skills in web development, data analysis, and automation. Each project is designed to solve real-world problems, with clean, efficient code and user-friendly design. Explore my work through detailed documentation and live demos, and get a glimpse of my passion for Python development. </p>
 
             <div class="social-icon">
@@ -62,11 +63,12 @@
                     <p>Using frameworks like Django or Flask, a Python full-stack developer can build robust, scalable, and secure backend systems. They handle server-side logic, database management, API development, and integration with third-party services</p>
                 </div>
             </dev>
-            <dev class="service-box">
+            <dev class="service-box" >
                 <div class="service-info">
                     <h4>DevOps</h4>
                     <p>Full-stack developers can manage the deployment of web applications using containerization tools like Docker, orchestration with Kubernetes, and cloud services like AWS, Azure, or Google Cloud. They ensure that the application is scalable, secure, and highly available.</p>
                 </div>
+               
             </dev>
         </div>
     </section>
@@ -193,7 +195,10 @@
     })();
  </script>
     <script src="vishnu.js"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
 
 
