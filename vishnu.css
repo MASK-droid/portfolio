@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 *{
     margin: 0;
@@ -205,7 +205,7 @@ span {
     width: 70%;   
 
 }
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
